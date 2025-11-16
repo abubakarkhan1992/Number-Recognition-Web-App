@@ -1,0 +1,6 @@
+pandas
+numpy
+pillow
+tensorflow
+streamlit
+pickle5
