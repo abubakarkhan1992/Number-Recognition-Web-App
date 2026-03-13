@@ -1,9 +1,9 @@
 #Assignment 4
 
 import streamlit as st
-import pickle
 from PIL import Image
 import numpy as np
+import pickle
 
 st.set_page_config("Number Recognition App", layout="centered")
 st.title("Number Recognition App")
@@ -27,6 +27,7 @@ if iamge is not None:
     st.image(iamge)
     prediction = predict_number(iamge)
     st.success(f"The predicted number is: {prediction}")
+
 
 
 
